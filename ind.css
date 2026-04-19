@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: 		#E0FFFF;
+}
+.navbar{
+    background-color: 	#00CED1;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;            
+    left: 0;           
+    width: 100%;  
+      z-index: 1000;     
+  
+}
+.navbar a{
+    background-color: 	#00CED1;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+
+}
+.navbar a:hover{
+    font-size: large;
+    color: #008000;
+}
+.navbar i{
+    background-color:#00CED1 ;
+}
+/* Reset */
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px; /* for navbar space */
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+.hero-text h1 {
+    font-size: 4rem; /* Increases the size significantly */
+    margin-bottom: 10px;
+    font-weight: 800; /* Makes it bolder */
+    color: #333; /* Or your preferred dark color */
+}
+
+.hero-text h2 {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px; /* Prevents text from stretching too wide */
+}
+
+/* Left text */
+.hero-text {
+    max-width: 500px;
+}
+.primary {
+    background: #48D1CC;
+    color: white;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Button base */
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+/* Secondary button */
+.secondary {
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(119, 119, 186);
+}
+
+/* Hover effects */
+.primary:hover {
+    background: 	#6495ED;
+}
+
+.secondary:hover {
+    background: #48d1cc;
+    color: white;
+}
+
+/* Right image */
+.hero-image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%; /* makes circle */
+    object-fit: cover;
+    border: 4px solid #008000;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+}
+.about{
+    font-family: Verdana;
+    font-size: xx-small;
+}
+.about button{
+    border: 2px solid white;
+    background-color: #E0FFFF;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+  background-color: #00CED1;
+  height: 150px;
+  color: black;
+  text-align: center;
+ 
+}
+
+
+.footer-content h3 {
+  margin-bottom: 10px;
+  background-color: #00CED1;
+}
+
+
+.socials a {
+   
+
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+    color: #008000;
+}
+
+.copy {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/*for education */
+
+.border{
+    height: 150px;
+    width: 1000px;
+    border-left: 2px solid black;
+    
+    color: #333;
+    background-color: white;
+    margin: 15px;
+    font-size: small;
+}
+.border a{
+    background-color: white;
+}
+.border h3{
+    color: #191970;
+}
+.hero-con h2{
+    font-size: x-large;
+    color:	#006400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* Container to center and space the links */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Base style for both links */
+.contact-link {
+    display: flex;
+    margin: 100px;
+    align-items: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Gmail specific color (Red) */
+.gmail {
+    background-color: #db4437;
+}
+
+/* LinkedIn specific color (Blue) */
+.linkedin {
+    background-color: #0077b5;
+}
+
+/* Hover effects */
+.contact-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    filter: brightness(1.1);
+}
+
+/* Icon spacing */
+.contact-link i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+#mail{
+    background-color: #db4437;
+
+}
+#linkedin{
+    background-color:  #0077b5;;
+}
+.imagecv{
+    margin-top: 50px;
+    height: 300;
+    width: 80%;
+}
+/* cv*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef2f7;
+}
+
+.resume-wrapper {
+    width: 800px;
+    margin: 30px auto;
+    border: 1px solid black;
+    padding: 25px 35px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name-title {
+    margin: 0;
+    font-size: 28px;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #555;
+}
+
+.content-section {
+    margin-bottom: 18px;
+}
+
+.section-heading {
+    font-size: 18px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 8px;
+    padding-bottom: 3px;
+}
+
+.section-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.edu-item {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.list-block {
+    margin: 5px 0 5px 18px;
+}
+
+.list-block li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.project-card {
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.project-card ul {
+    margin-left: 18px;
+}
+
+.project-card li {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+/* skill*/
+/* Container - Forces 3 equal columns that automatically wrap */
+.skills-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  gap: 30px; /* Space between the cards */
+  padding: 50px;
+  background-color: #f0fbfc; /* Light cyan background, matching your theme */
+}
+
+/* Base Card Design */
+.skill-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Smooth hover transition */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+  border-bottom: 5px solid #00ced1; /* Your existing accent cyan color */
+}
+
+/* Hover Effect: Lifts and brightens */
+.skill-card:hover {
+  transform: translateY(-10px) scale(1.02); /* Lifts up and grows slightly */
+  box-shadow: 0 15px 30px rgba(0, 206, 209, 0.2); /* Cyan glow shadow */
+}
+
+/* Styling for Card Elements */
+.skill-card .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.skill-card h3 {
+  font-family: 'Poppins', sans-serif; /* A modern font choice */
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.skill-card ul {
+  list-style: none; /* Removes boring bullet points */
+  padding: 0;
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  background-color: white;
+}
+
+.skill-card ul li {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+}
+
+/* Adds small, subtle cyan accents next to detail list items */
+.skill-card ul li::before {
+  content: '→';
+  color: #00ced1;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.icon{
+    background-color: white;
+
+}
+.skill-card h3{
+    background-color: white;
+
+}
+/* project */
+/* Base Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.portfolio {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+/* Grid Logic */
+.grid {
+  display: grid;
+  /* Automatically makes columns based on screen size */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Card Design */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #eaeaea;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  border-color: #007bff;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.badge {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #007bff;
+  background: rgba(0, 123, 255, 0.1);
+  padding: 4px 10px;
+  border-radius: 50px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.4rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Tech Tags */
+.tech-tags {
+  margin-bottom: 25px;
+}
+
+.tech-tags span {
+  font-size: 0.8rem;
+  color: #999;
+  margin-right: 10px;
+  font-family: monospace;
+}
+
+/* Action Button */
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.card:hover .btn-primary {
+  background: #007bff; /* Button turns blue when card is hovered */
+}
